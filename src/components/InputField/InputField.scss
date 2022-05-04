@@ -3,6 +3,10 @@
     width: 95%;
     position: relative;
     align-items: center;
+
+    @media (max-width: 700px) {
+        width: 95%;
+    }
 }
 
 .input__box {
