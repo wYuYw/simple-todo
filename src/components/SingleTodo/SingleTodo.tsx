@@ -60,7 +60,11 @@ const SingleTodo = ({
       <div>
         <span
           className="icon"
-          onClick={() => {setEdit(!edit);}}
+          onClick={() => {
+            if (!edit) {
+              setEdit(!edit);
+            }
+          }}
         >
           <AiFillEdit />
         </span>
