@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 :root {
-    --font-base: "Neucha", cursive;
+    --font-base: 'Roboto Condensed', sans-serif;
 
-    --bgBase-color: #2f74c0;
+    --bgBase-color: #121212;
+    --bgExtra-color: #c7c7c7;
     --fontBase-color: #ffffff;
-    --eleBase-color: #121212;
+    --eleBase-color: #d6b830;
+    --eleAccent-color: #e7c21b;
+    --activeTask-color: #1e4620;
+    --completedTask-color: #290f02;
 }
 
 html {
-  font-family: sans-serif;
+  font-family: var(--font-base);
 }
 
 body {
@@ -21,7 +25,7 @@ body {
 ::-webkit-scrollbar {
   height: 12px;
   width: 5px;
-  background: #000;
+  background: var(--bgBase-color);
 }
 
 ::-webkit-scrollbar-thumb {

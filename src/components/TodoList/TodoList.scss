@@ -4,7 +4,7 @@
     flex-direction: column;
     width: 47.5%;
     padding: 15px;
-    background-color: rgb(50, 195, 205);
+    background-color: var(--activeTask-color);
 
     @media (max-width: 1100px) {
         width: 45%;
@@ -14,4 +14,27 @@
         width: 95%;
         margin-bottom: 10px;
     }
+}
+
+.todos__heading {
+    font-size: 30px;
+    text-align: center;
+    color: var(--fontBase-color);
+}
+
+.container {
+    width: 95%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media (max-width: 700px) {
+        width: 95%;
+        flex-direction: column;
+    }
+}
+
+.remove {
+    background-color: var(--completedTask-color);
 }
