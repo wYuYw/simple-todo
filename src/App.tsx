@@ -13,8 +13,10 @@ const App: React.FC = () => {
   const handleAdd = (e: React.FormEvent) => {
     e.preventDefault();
     if (todo) {
+      // since it's simple todo list, id is enough only with Date.now()
+      // if project becomes bigger, uuid is needed
       setTodos([...todos, { id: Date.now(), todo }]);
-      setTodo("");
+      setTodo('');
     }
   };
 

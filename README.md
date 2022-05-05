@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# Simple Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
-## Available Scripts
+**Purpose:**
 
-In the project directory, you can run:
+- Creating a simple todo list to practice using react with typescript.
 
-### `npm start`
+**Challenge:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Should be concise code in order to share with typescript & react learners
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Solution:**
 
-### `npm test`
+- Implement organized structure used in codes of multiple files
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Tool:**
 
-### `npm run build`
+- React.js, Typescript, Scss
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# ****Table of Contents****
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Usage](#usage)
+- [Project Details](#project-details)
+    - [Customer](#1-customer)
+    - [Key Considerations](#2-key-considerations)
+    - [Structure](#3-structure)
+- [Credits](#credits)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# ****Usage****
 
-### `npm run eject`
+You can visit my simple todolist website through this link.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Simple Todo List using typescript & react](https://simpletodo.netlify.app/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Project Details
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 1. Customer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Those who're learning typescript and react
 
-## Learn More
+## 2. Key Considerations
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Organized structure of code
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Make each codes of compoenets in order of [ props -> functions -> return (rendering) ]
+2. Use readable comments
+
+## 3. Structure
+
+### InputField
+
+- Input box to write todo content
+- Props from App.tsx
+
+### TodoList
+
+- TodoList component; distinguish active tasks and completed tasks
+- Props from App.tsx
+
+### SingleTodo
+
+- Single Todo item component
+- design icons and functions for manipulating individual todos
+- Props from TodoList.tsx
+
+# ****Credits****
+
+- Personal Project
