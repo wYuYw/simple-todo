@@ -31,7 +31,7 @@
 
 You can visit my simple todolist website through this link.
 
-[Simple Todo List using typescript & react](https://simpletodo.netlify.app/)
+[Simple Todo List using typescript & react](https://simple-react-typescript-todo.netlify.app/)
 
 # Project Details
 
